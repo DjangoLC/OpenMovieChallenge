@@ -22,6 +22,11 @@ La aplicación está construida utilizando el patrón **Model-View-ViewModel (MV
 
 ## Pantallas
 
+## Screenshots
+| Home | Maps | Profile | Picker |
+|--|--|--|--|
+|  ![map](ss/Screenshot_20240405_145028.png)| ![map](ss/Screenshot_20240405_145050.png) |  ![map](ss/Screenshot_20240405_145058.png) | ![map](ss/Screenshot_20240405_145117.png)
+
 - **Pantalla Principal:** Muestra el listado de películas con un diseño segmentado por categorías.
 - **Mapa de Cines:** Muestra un mapa con marcadores indicando la ubicación del usuario.
 - **Subida de Imágenes:** Permite seleccionar y subir imágenes a Firebase Storage desde el dispositivo.
