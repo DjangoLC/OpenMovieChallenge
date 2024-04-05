@@ -1,0 +1,39 @@
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.example.openmovie.presentation.movies.adapter.MovieAdapter" />
+        <variable
+            name="header"
+            type="String" />
+
+        <variable
+            name="adapter"
+            type="com.example.openmovie.presentation.movies.adapter.MovieAdapter" />
+
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@{header}"
+            android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+            tools:text="@tools:sample/full_names" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvMovies"
+            app:setAdapter="@{adapter}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/movie_item" />
+
+    </LinearLayout>
+</layout>

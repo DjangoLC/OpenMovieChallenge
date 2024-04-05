@@ -1,0 +1,49 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="movieName"
+            type="String" />
+
+        <variable
+            name="imageUrl"
+            type="String" />
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp">
+
+            <com.example.openmovie.utils.AspectRatioImageView
+                android:id="@+id/movieCover"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                app:imageUrl="@{imageUrl}"
+                app:ratio="1.4"
+                tools:src="@tools:sample/backgrounds/scenic" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/movieTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@{movieName}"
+            android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+            tools:text="@tools:sample/lorem" />
+
+    </LinearLayout>
+
+</layout>

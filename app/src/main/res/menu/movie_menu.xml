@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/moviesFragment"
+        android:icon="@drawable/baseline_movie_24"
+        android:title="@string/meu_item_movies" />
+    <item
+        android:icon="@drawable/baseline_explore_24"
+        android:title="@string/meu_item_discover" />
+
+    <item
+        android:icon="@drawable/baseline_favorite_24"
+        android:title="@string/meu_item_favorites" />
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@drawable/baseline_add_location_24"
+        android:title="@string/meu_item_locations" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="@string/meu_item_profile" />
+
+</menu>

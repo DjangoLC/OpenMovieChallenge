@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">OpenMovie</string>
+    <string name="meu_item_movies">movies</string>
+    <string name="meu_item_discover">discover\n</string>
+    <string name="meu_item_favorites">favorites\n</string>
+    <string name="meu_item_locations">locations</string>
+    <string name="meu_item_profile">profile\n</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="whishlist">whishlist</string>
+    <string name="details">details</string>
+    <string name="map_api_key">AIzaSyBWiH6mWe1YN1W1vJmuMSdzHYHDgYAz0C0</string>
+    <string name="recommended_movies">Recommendations</string>
+    <string name="most_popular_movies">Most popular</string>
+    <string name="top_rated_movies">Top rated</string>
+    <string name="rated_movies">Rated movies</string>
+    <string name="favorite_movies">Favorite movies</string>
+    <string name="upload_files">Upload files</string>
+</resources>

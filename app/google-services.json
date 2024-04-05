@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "707773704353",
+    "project_id": "openmovies-d81f7",
+    "storage_bucket": "openmovies-d81f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707773704353:android:716ed5312706aab33528e0",
+        "android_client_info": {
+          "package_name": "com.example.openmovie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6M6R8W5g_fN7Gq00TFBD2IDXnaU2yLyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
